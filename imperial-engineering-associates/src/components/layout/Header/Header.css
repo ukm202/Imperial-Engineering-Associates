@@ -14,9 +14,6 @@ header{
     aspect-ratio: 8/1;
     background-position: bottom;
     width: 100% auto;
-    /* opacity: 0.7; */
-    
-    /* position: relative; */
     
 }
 
@@ -87,7 +84,6 @@ header{
 }
 .header-contact > div{
     border: 2px solid #fff;
-    /* color: #860c1e; */
     padding: 0.5vmax 3vmax 0.5vmax 3vmax;
     border-radius: 1.5em;
     transition: all 0.5s;
@@ -160,12 +156,6 @@ header{
         padding: 0.3vmax 1.5vmax 0.3vmax 1.5vmax;
         font-size: smaller;
     }
-    
-    .icons{
-        /* justify-content: flex-start; */
-        /* flex-wrap: wrap; */
-        /* margin: 0.5vmax 0.5vmax 0.5vmax 0 ; */
-    }
     .icons > a{
         padding: 0.25;
         font-size: smaller;
@@ -201,9 +191,6 @@ header{
 
 /* Media Queries (SMALL DEVICES) */
 @media screen and (max-width: 465px){
-    .header{
-        /* aspect-ratio: 3/1; */
-    }
     .content{
         left: 60%;
     }
@@ -238,6 +225,5 @@ header{
     .header-contact > div{
         font-size:xx-small;
     }
-    
     
 }

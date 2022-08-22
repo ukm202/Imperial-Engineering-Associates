@@ -8,6 +8,7 @@ import {
     FaLinkedin,
   } from "react-icons/fa";
 import { AiFillTwitterCircle } from "react-icons/ai";
+import Map from "./Map";
 
 const Footer = () => {
   return (
@@ -76,13 +77,7 @@ const Footer = () => {
         </div>
         <div className="map">
           <h3>Visit Us</h3>
-          <p>
-            My name is Uttam Mishra. I am from Nepal. I am majoring in Computer
-            Science with a minor in Applied Mathematics at New York University
-            Abu Dhabi. I have interest in web development and data science.
-            Aside my academics, I play soccer and cricket and I love to cook
-            whenever I get time to.
-          </p>
+          <Map />
         </div>
       </div>
 

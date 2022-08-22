@@ -1,0 +1,25 @@
+/* Footer bar */
+.footer-bar{
+    background-image: linear-gradient(to right, red,rgb(145, 47, 47),red);
+    text-align: center;
+    padding: 1vmax;
+}
+.footer-bar > h2{
+    font-size: 1.4rem;
+}
+.footer-bar > h2 > a{
+    color: #0bd677df;
+    font-size: 1.4rem;
+}
+
+/* Footer Bottom */
+.footer-bottom{
+    text-align: center;
+    padding: 1vmax;
+}
+.footer-bottom > p{
+    color: green;
+}
+.footer-bottom > p > a{
+    color: var(--color-bg);
+}

@@ -1,0 +1,243 @@
+body{
+    width: 100% auto;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    align-items: center;
+
+    background: url("../../../Images/header07.jpeg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    aspect-ratio: 8/1;
+    background-position: bottom;
+    width: 100% auto;
+    /* opacity: 0.7; */
+    
+    /* position: relative; */
+    
+}
+
+/* Logo */
+.logo{
+    padding: 0.75vmax;
+    background: rgb(0, 0, 0);
+    padding-bottom: 0;
+    position: fixed;
+    z-index: 10;
+    box-shadow: 0 0 5px 0px #3b3838;
+    transition: all 0.5s;
+    
+}
+
+.logo:hover{
+    background: rgba(0,0,0,0.5);
+}
+
+.logo > a > img{
+    height: 5vmax;
+    width: fit-content;
+    margin: 0;
+}
+.logo > a > p{
+    margin: 0;
+    padding: 0;
+}
+
+.logo > a:hover{
+    color: white;
+
+    text-decoration: none;
+}
+.spin-animation{
+    animation: spin-animation 1s infinite;
+}
+.spin-animation:hover{
+    animation:none;
+
+}
+
+@keyframes spin-animation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* header contents */
+.content{
+    position: absolute;
+    left: 30%;
+    display: grid;
+    grid-gap: 7vmax;
+    grid-template-columns: 3fr 1fr;
+
+}
+
+.header-contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2vmax;  
+  
+}
+.header-contact > div{
+    border: 2px solid #fff;
+    /* color: #860c1e; */
+    padding: 0.5vmax 3vmax 0.5vmax 3vmax;
+    border-radius: 1.5em;
+    transition: all 0.5s;
+}
+
+.header-contact >div:hover{
+    box-shadow: 0 0 5px rgba(15,15,15,0.26);
+    transform: translateY(-1vmax);
+}
+/* Icons */
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 1vmax;
+}
+.icons > a{
+    border: 1.5px solid #fff;
+    padding: 0.5vmax;
+    text-align: center;
+    border-radius: 50%;
+    align-items: center;
+
+
+}
+/* Media Queries (MEDIUM-LARGE DEVICES) */
+@media screen and (max-width: 1090px){
+    .header{
+        aspect-ratio: 7/1;
+    }
+    .content{
+        grid-gap: 5vmax;
+    }
+    .header-contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0.5vmax 0 0.5vmax 0;
+      
+    }
+
+    .header-contact > div{
+        padding: 0.5vmax 4vmax 0.5vmax 4vmax;
+    }
+
+    .icons{
+        align-items: center;
+        grid-gap: 1vmax;
+
+    }
+
+    
+}
+
+/* Media Queries (MEDIUM DEVICES) */
+@media screen and (max-width: 750px){
+    .header{
+        aspect-ratio: 6/1;
+    }
+    .content{
+        grid-gap: 1vmax;
+    }
+   
+    .logo > a{
+        font-size: smaller;
+    }
+    .header-contact > div{
+        border: 1px solid #fff;
+        
+        padding: 0.3vmax 1.5vmax 0.3vmax 1.5vmax;
+        font-size: smaller;
+    }
+    
+    .icons{
+        /* justify-content: flex-start; */
+        /* flex-wrap: wrap; */
+        /* margin: 0.5vmax 0.5vmax 0.5vmax 0 ; */
+    }
+    .icons > a{
+        padding: 0.25;
+        font-size: smaller;
+    }
+
+   
+    
+
+    
+}
+
+
+/* Media Queries (SMALL DEVICES) */
+@media screen and (max-width: 600px){
+    .header{
+        aspect-ratio: 4/1;
+    }
+    .content{
+        display: block;
+        left: 50%;
+    }
+    .header-contact{
+        margin-bottom: 2vmax;
+    }
+    .header-contact > div{
+        padding: 0.5vmax 6vmax 0.5vmax 6vmax;
+    }
+    .icons{
+        justify-content: center;
+    }
+    
+}
+
+/* Media Queries (SMALL DEVICES) */
+@media screen and (max-width: 465px){
+    .header{
+        /* aspect-ratio: 3/1; */
+    }
+    .content{
+        left: 60%;
+    }
+    .logo > a{
+        font-size: x-small;
+    }
+
+    .header-contact > div{
+        padding: 0.5vmax 3vmax 0.5vmax 3vmax;
+        font-size:x-small;
+    }
+    .icons{
+        justify-content: center;
+    }
+    .icons > a{
+        font-size: x-small;
+        border: 1px solid #fff;
+    }
+    
+}
+
+/* Media Queries (X-small devices) */
+@media screen and (max-width: 350px) {
+    .header{
+        aspect-ratio: 3/1;
+    }
+
+    .logo > a{
+        font-size: xx-small;
+    }
+
+    .header-contact > div{
+        font-size:xx-small;
+    }
+    
+    
+}

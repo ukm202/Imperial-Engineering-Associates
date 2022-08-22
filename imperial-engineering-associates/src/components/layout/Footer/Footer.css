@@ -15,22 +15,88 @@
 /* Footer Bottom */
 .footer-bottom{
     text-align: center;
-    padding: 1vmax;
+    padding: 2vmax;
 }
 .footer-bottom > p{
     color: green;
+
 }
+
 .footer-bottom > p > a{
+    color: var(--color-primary);
+    transition: all 0.5s;
+
+}
+.footer-bottom > p > a:hover{
     color: var(--color-bg);
+    
 }
 
 /* Sticky top */
 
-
 .sticky-top > a {
     position: fixed;
     right: 2vmax;
-    bottom: 2vmax;
+    bottom: 1vmax;
     
+}
+.sticky-top > a:hover {
+    transform: translateY(-0.4rem);   
+}
+
+/* Footer Content */
+.footer{
+    background-image: linear-gradient(to right, #006838,#008000);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+.footer > div{
+    padding: 2.4rem 1rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    
+}
+.footer >div> h3{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.footer > .links >ul  {
+    margin-left: 10rem;  
+}
+.footer > .links >ul > li > ul  {
+    margin-left: 2rem;  
+}
+
+.footer-contacts > p{
+    margin-bottom: 1.4vmax;
+}
+.contact-links{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    gap: 2rem;
+    
+}
+.contact-links> a{
+    /* margin: 1vmax; */
+
+}
+
+
+
+/* Bulltes to lists */
+ul {
+    list-style: none
+}
+li::before {
+    content: "•"; color: white;
+    display: inline-block; width: 1em;
+    margin-left: -1em
+}
+
+.footer > .links >ul > li > ul>li::before  {
+    content: "◦"; color: white;
+     
 }
 

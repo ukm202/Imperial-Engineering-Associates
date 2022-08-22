@@ -17,12 +17,12 @@ const Header = () => {
           <div>
             <a href="tel:123-456-7890">
               {" "}
-              <MdLocalPhone fill="#860c1e" /> +977 123-456-7890
+              <MdLocalPhone fill="rgb(213, 27, 11)" /> +977 123-456-7890
             </a>
           </div>
           <div>
             <a href="mailto: abc@example.com">
-              <MdOutlineMail fill="#860c1e" /> abc@example.com
+              <MdOutlineMail fill="rgb(213, 27, 11)" /> abc@example.com
             </a>
           </div>
         </div>

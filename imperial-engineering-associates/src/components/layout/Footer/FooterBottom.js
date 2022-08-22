@@ -8,5 +8,4 @@ const FooterBottom = () => {
     </div>
   );
 };
-
 export default FooterBottom;

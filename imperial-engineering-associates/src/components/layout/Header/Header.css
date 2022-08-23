@@ -20,7 +20,7 @@ header{
 /* Logo */
 .logo{
     padding: 0.75vmax;
-    background: rgb(0, 0, 0);
+    background: var(--color-primary);
     padding-bottom: 0;
     position: fixed;
     z-index: 10;
@@ -29,9 +29,9 @@ header{
     
 }
 
-.logo:hover{
-    background: rgba(0,0,0,0.5);
-}
+/* .logo:hover{
+    
+} */
 
 .logo > a > img{
     height: 5vmax;
@@ -110,7 +110,7 @@ header{
 
 }
 /* Media Queries (MEDIUM-LARGE DEVICES) */
-@media screen and (max-width: 1090px){
+@media screen and (max-width: 1114px){
     .header{
         aspect-ratio: 7/1;
     }

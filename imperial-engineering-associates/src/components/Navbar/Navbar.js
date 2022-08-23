@@ -1,10 +1,26 @@
 import "./Navbar.css";
 import { IoMdArrowDropdown } from "react-icons/io";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { useState } from "react";
+import { BiSearch } from "react-icons/bi";
 const Navbar = () => {
-    return (  
+
+    
+   
+    
+    return ( 
+
         <nav className="navbar">
+           
+            
             <div className="searchBox">
+                
                 <input type="search" placeholder="How Can We Help You?" />
+            </div>
+            <div className="burger">
+                <button> <GiHamburgerMenu style={{verticalAlign:"middle"}} margin="0" size={30} /> </button>
+                    
+                    
             </div>
        
             <div className="navs">

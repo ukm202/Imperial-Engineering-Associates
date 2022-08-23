@@ -14,13 +14,13 @@
     --color-bg: #1f1f38;
     --color-bg-variant: #2c2c6c;
     --color-primary: rgb(238, 8, 8);
-    --color-primary-variant: rgb(213, 27, 11);
+    --color-primary-variant: rgb(190, 30, 45);
     --color-white: #fff;
     --color-light: rgba(255,255,255,0.6);
     --container-width-lg: 75%;
     --container-width-md: 86%;
     --container-width-sm: 90%;
-    --transition: all 400ms ease;
+    --transition: all 0.5s ease;
 }
 html{
     scroll-behavior: smooth;

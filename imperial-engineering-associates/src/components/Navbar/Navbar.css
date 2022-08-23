@@ -6,21 +6,36 @@
     
     
 }
+/* Burger */
+.burger > button{
+        all: unset;
+        cursor: pointer;    
+}
+
+.burger{
+    position: absolute;
+    right: 2rem;
+    display: none;
+}
 /* Searchbox */
 .searchBox{
     position: absolute;
-    top: -0.75rem;
+    top: -0.5rem;
     left: 11rem;
+    height: 50px;
+    width: 300px;
+
 }
+
 .searchBox > input{
-    
-    width: 20vmax;
-    height: 4.25vmax;
+    width: 100%;
+    height: 100%;
     transition: var(--transition);
     border: 5px solid var(--color-primary-variant);
     border-radius: 1vmax;
     margin: 0;
 }
+
 
 /* navs */
 .navs{
@@ -30,6 +45,7 @@
     flex-direction: row;
     justify-content: space-between;
     gap: 1.5rem;
+    /* display: none; */
     
 }
 
@@ -67,3 +83,40 @@
     color: #FFFFFF;
     background-color: var(--color-primary-variant);
 }
+
+/* Media Queries (Medium-large devices) */
+@media screen and (max-width: 1315px) {
+    .searchBox{
+        left: 3rem;
+        transition: all 0.9s ease-in;
+        
+    }
+    .navs{
+        
+        right: 2rem;
+        transition: all 0.9s ease-in;
+        gap: 1rem;
+        
+    }
+    
+}
+
+/* Media Queries (Medium-large devices) */
+@media screen and (max-width: 1010px) {
+    .navs{
+        display: none;
+    }
+    .burger{
+        display: block;
+    }
+    
+    .searchBox{
+        top: 0;
+        width: 350px;
+        left: 0.5rem;   
+    }
+
+    
+}
+
+

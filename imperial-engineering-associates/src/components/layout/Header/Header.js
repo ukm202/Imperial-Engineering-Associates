@@ -17,28 +17,28 @@ const Header = () => {
           <div>
             <a href="tel:123-456-7890">
               {" "}
-              <MdLocalPhone fill="rgb(213, 27, 11)" /> +977 123-456-7890
+              <MdLocalPhone size={20} style={{verticalAlign: 'middle'}} fill="rgb(213, 27, 11)" /> +977 123-456-7890
             </a>
           </div>
           <div>
             <a href="mailto: abc@example.com">
-              <MdOutlineMail fill="rgb(213, 27, 11)" /> abc@example.com
+              <MdOutlineMail size={20} style={{verticalAlign: 'middle'}} fill="rgb(213, 27, 11)" /> abc@example.com
             </a>
           </div>
         </div>
 
         <div className="icons">
           <a href="#">
-            <FaFacebookF className="spin-animation" />
+            <FaFacebookF style={{verticalAlign: 'middle'}} className="spin-animation" />
           </a>
           <a href="#">
-            <FaTwitter className="spin-animation" />
+            <FaTwitter style={{verticalAlign: 'middle'}} className="spin-animation" />
           </a>
           <a href="#">
-            <FaInstagram className="spin-animation" />
+            <FaInstagram style={{verticalAlign: 'middle'}} className="spin-animation" />
           </a>
           <a href="#">
-            <FaLinkedinIn className="spin-animation" />
+            <FaLinkedinIn style={{verticalAlign: 'middle'}} className="spin-animation" />
           </a>
         </div>
       </div>

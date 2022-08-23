@@ -39,10 +39,10 @@ body{
     /* position: relative; */
 }
 
-.container{
+/* .container{
     width: var(--container-width-lg);
     margin:  0 auto;
-}
+} */
 
 h1, h2, h3, h4, h5 {
     font-weight: 450;

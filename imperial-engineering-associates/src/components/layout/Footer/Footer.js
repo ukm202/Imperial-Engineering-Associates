@@ -83,7 +83,7 @@ const Footer = () => {
 
       <div className="sticky-top">
         <a href="#">
-          <BsFillCloudArrowUpFill fill="green" size={40} />
+          <BsFillCloudArrowUpFill fill="black" size={40} />
         </a>
       </div>
       <FooterBottom />

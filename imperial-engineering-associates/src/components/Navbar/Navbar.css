@@ -1,6 +1,6 @@
 
 .navbar{
-    background-color: #006838;
+    background-color: var(--color-darkSlate);
     position: relative;
     padding: 1.5rem;
     
@@ -67,7 +67,7 @@
     width: 15vmax;
     overflow: auto;
     box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
-    background-color: #006838;
+    background-color: var(--color-darkSlate);
 }
 .dropdown:hover .dropdown-content {
     display: block;

@@ -1,6 +1,6 @@
 /* Footer bar */
 .footer-bar{
-    background-image: linear-gradient(to right, red,rgb(145, 47, 47),red);
+    background-color: var(--color-primary-variant);
     text-align: center;
     padding: 1vmax;
 }
@@ -8,7 +8,7 @@
     font-size: 1.4rem;
 }
 .footer-bar > h2 > a{
-    color: #0bd677df;
+    color: var(--color-darkSlate);  
     font-size: 1.4rem;
 }
 
@@ -46,7 +46,7 @@
 
 /* Footer Content */
 .footer{
-    background-image: linear-gradient(to right, #006838,#008000);
+    background-color: var(--color-darkSlate);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;

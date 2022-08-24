@@ -25,19 +25,19 @@ const Navbar = () => {
        
             <div className="navs">
                 <div>
-                    <a href="#">Home</a>
+                    <a href="/">Home</a>
                 </div>
                 <div className="dropdown">
                     <a href="#">Our Company<IoMdArrowDropdown size={20} style={{verticalAlign: 'middle'}} /> </a>
                     <div className="dropdown-content">
-                        <a href="#">About Us</a>
+                        <a href="/about">About Us</a>
                         <a href="#">Message from Chairman</a>
                         <a href="#">Our Team</a>
                         <a href="#">Our Clients</a>
                     </div>
                 </div>
                 <div>
-                    <a href="#">Our Services</a>
+                    <a href="/services">Our Services</a>
                 </div>
                 <div>
                     <a href="#">Training</a>

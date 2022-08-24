@@ -34,6 +34,7 @@
     border: 5px solid var(--color-primary-variant);
     border-radius: 1vmax;
     margin: 0;
+    text-align: center;
 }
 
 

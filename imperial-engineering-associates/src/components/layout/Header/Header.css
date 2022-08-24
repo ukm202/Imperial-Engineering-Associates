@@ -112,7 +112,7 @@ header{
 /* Media Queries (MEDIUM-LARGE DEVICES) */
 @media screen and (max-width: 1114px){
     .header{
-        aspect-ratio: 7/1;
+        aspect-ratio: 6/1;
     }
     .content{
         grid-gap: 5vmax;
@@ -141,7 +141,7 @@ header{
 /* Media Queries (MEDIUM DEVICES) */
 @media screen and (max-width: 750px){
     .header{
-        aspect-ratio: 6/1;
+        aspect-ratio: 4/1;
     }
     .content{
         grid-gap: 1vmax;
@@ -171,7 +171,7 @@ header{
 /* Media Queries (SMALL DEVICES) */
 @media screen and (max-width: 600px){
     .header{
-        aspect-ratio: 4/1;
+        aspect-ratio: 3/1;
     }
     .content{
         display: block;
@@ -191,15 +191,14 @@ header{
 
 /* Media Queries (SMALL DEVICES) */
 @media screen and (max-width: 465px){
-    .content{
-        left: 60%;
-    }
+
+  
     .logo > a{
         font-size: x-small;
     }
 
     .header-contact > div{
-        padding: 0.5vmax 3vmax 0.5vmax 3vmax;
+        padding: 0.5vmax 4vmax 0.5vmax 4vmax;
         font-size:x-small;
     }
     .icons{
@@ -214,8 +213,14 @@ header{
 
 /* Media Queries (X-small devices) */
 @media screen and (max-width: 350px) {
+    .logo{
+        width: 4rem;
+    }
+    .content{
+        left: 30%;
+    }
     .header{
-        aspect-ratio: 3/1;
+        aspect-ratio: 2/1;
     }
 
     .logo > a{

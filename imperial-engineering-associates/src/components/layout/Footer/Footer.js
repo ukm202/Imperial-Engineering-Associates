@@ -82,7 +82,7 @@ const Footer = () => {
       </div>
 
       <div className="sticky-top">
-        <a href="#">
+        <a href="/">
           <BsFillCloudArrowUpFill fill="black" size={40} />
         </a>
       </div>

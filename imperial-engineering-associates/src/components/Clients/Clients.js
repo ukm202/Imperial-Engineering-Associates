@@ -27,7 +27,7 @@ const Clients = () => {
     }
     ];
   return (
-    <div className="clients">
+    <div className="clients" id="clients">
       <br />
       <br />
       <h2>Our Happy Clients</h2>

@@ -53,7 +53,7 @@ const Services = () => {
     },
   ];
   return (
-    <div className="services-main">
+    <div className="services-main" id="services">
       <img src={Services1} alt="Services" />
       <div className="services">
         <a href="/services">

@@ -10,7 +10,7 @@ import Logo from "./Logo";
 
 const Header = () => {
   return (
-    <header className="header">
+    <header className="header" id="home">
       <Logo />
       <div className="content">
         <div className="header-contact">

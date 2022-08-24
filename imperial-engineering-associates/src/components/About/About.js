@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className="about-main">
       <div className="about">
-        <h2>About Us</h2>
+        <a href="/about"><h2>About Us</h2></a>
         <h5>We are committed for your sustainable construction.</h5>
         <p>
           Imperial Engineering Associates was established in 2018 registered

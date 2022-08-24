@@ -19,14 +19,21 @@ header{
 
 /* Logo */
 .logo{
-    padding: 0.75vmax;
+    padding: 0.75vmax 4vmax 0.75vmax 0.75vmax;
     background: var(--color-primary-variant);
     padding-bottom: 0;
     position: fixed;
     z-index: 10;
     box-shadow: 0 0 5px 0px #3b3838;
-    transition: all 0.5s;
+    transition: all 0.9s;
+    left: -17rem;
     
+    
+}
+.logo:hover{
+    left: 0;
+    padding: 0.75vmax; 
+
 }
 
 /* .logo:hover{
@@ -101,16 +108,20 @@ header{
     margin-right: 1vmax;
 }
 .icons > a{
-    border: 1.5px solid #fff;
+    /* border: 1.5px solid #fff; */
     padding: 0.5vmax;
     text-align: center;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     align-items: center;
 
 
 }
 /* Media Queries (MEDIUM-LARGE DEVICES) */
 @media screen and (max-width: 1114px){
+    .logo{
+        /* left: -17rem; */
+        padding-right: 3rem;
+    }
     .header{
         aspect-ratio: 6/1;
     }
@@ -140,6 +151,10 @@ header{
 
 /* Media Queries (MEDIUM DEVICES) */
 @media screen and (max-width: 750px){
+    .logo{
+        /* left: -17rem; */
+        padding-right: 5rem;
+    }
     .header{
         aspect-ratio: 4/1;
     }
@@ -170,6 +185,10 @@ header{
 
 /* Media Queries (SMALL DEVICES) */
 @media screen and (max-width: 600px){
+    .logo{
+        /* left: -17rem; */
+        padding-right: 6rem;
+    }
     .header{
         aspect-ratio: 3/1;
     }
@@ -191,6 +210,10 @@ header{
 
 /* Media Queries (SMALL DEVICES) */
 @media screen and (max-width: 465px){
+    .logo{
+        /* left: -17rem; */
+        padding-right: 8rem;
+    }
 
   
     .logo > a{
@@ -215,6 +238,8 @@ header{
 @media screen and (max-width: 350px) {
     .logo{
         width: 4rem;
+        left: 0;
+        padding: 0.75vmax;
     }
     .content{
         left: 30%;

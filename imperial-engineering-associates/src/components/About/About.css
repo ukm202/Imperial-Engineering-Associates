@@ -1,6 +1,7 @@
 .about-main {
     background-color: var(--color-primary-variant);
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
+    
 }
 
 .about {

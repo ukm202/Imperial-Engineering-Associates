@@ -17,28 +17,74 @@ const Header = () => {
           <div>
             <a href="tel:123-456-7890">
               {" "}
-              <MdLocalPhone size={20} style={{verticalAlign: 'middle'}} fill="rgb(213, 27, 11)" /> +977 123-456-7890
+              <MdLocalPhone
+                size={20}
+                style={{ verticalAlign: "middle" }}
+                fill="rgb(213, 27, 11)"
+              />{" "}
+              +977 123-456-7890
             </a>
           </div>
           <div>
             <a href="mailto: abc@example.com">
-              <MdOutlineMail size={20} style={{verticalAlign: 'middle'}} fill="rgb(213, 27, 11)" /> abc@example.com
+              <MdOutlineMail
+                size={20}
+                style={{ verticalAlign: "middle" }}
+                fill="rgb(213, 27, 11)"
+              />{" "}
+              abc@example.com
             </a>
           </div>
         </div>
 
         <div className="icons">
           <a href="#">
-            <FaFacebookF style={{verticalAlign: 'middle'}} className="spin-animation" />
+            <FaFacebookF
+              size={35}
+              style={{
+                verticalAlign: "middle",
+                border: "1px solid white",
+                borderRadius: "50%",
+                padding:'5px'
+              }}
+              className="spin-animation"
+            />
           </a>
           <a href="#">
-            <FaTwitter style={{verticalAlign: 'middle'}} className="spin-animation" />
+            <FaTwitter
+              size={35}
+              style={{
+                verticalAlign: "middle",
+                border: "1px solid white",
+                borderRadius: "50%",
+                padding:'5px'
+              }}
+              className="spin-animation"
+            />
           </a>
           <a href="#">
-            <FaInstagram style={{verticalAlign: 'middle'}} className="spin-animation" />
+            <FaInstagram
+              size={35}
+              style={{
+                verticalAlign: "middle",
+                border: "1px solid white",
+                borderRadius: "50%",
+                padding:'5px'
+              }}
+              className="spin-animation"
+            />
           </a>
           <a href="#">
-            <FaLinkedinIn style={{verticalAlign: 'middle'}} className="spin-animation" />
+            <FaLinkedinIn
+              size={35}
+              style={{
+                verticalAlign: "middle",
+                border: "1px solid white",
+                borderRadius: "50%",
+                padding:'5px'
+              }}
+              className="spin-animation"
+            />
           </a>
         </div>
       </div>

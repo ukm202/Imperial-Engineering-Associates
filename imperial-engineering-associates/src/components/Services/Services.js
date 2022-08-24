@@ -43,13 +43,13 @@ const Services = () => {
       icon: IoIosRocket,
       title: "Our Mission",
       message:
-        "To provide our best service, consultancy and service at minimum cost and helping them live a better and stress free life.",
+        "To provide our best quality, consultancy and cost-effective service for better and stress free life.",
     },
     {
       icon: FaStreetView,
       title: "Our Value",
       message:
-        "Delivering excellency and gaining optimum client satisfaction. We serve all kinds of clients. Money will not be a constraint.",
+        "Delivering excellency and gaining optimum client satisfaction to all kinds of clients. Money won't be a constraint.",
     },
   ];
   return (

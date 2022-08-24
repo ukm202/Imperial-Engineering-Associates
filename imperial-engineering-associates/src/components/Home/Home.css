@@ -18,6 +18,7 @@
     height: 100%;
     
     clip-path: polygon(100% 0, 100% 51%, 74% 91%, 0 68%, 0 0);
+    filter: brightness(60%);
   }
   
   .home:after {

@@ -4,6 +4,8 @@ import Services1 from "../../Images/services.jpeg";
 import Industrial from "../../Images/Design 05.jpeg";
 import Webdev from "../../Images/webdev.jpeg";
 import { BsFillEyeFill } from "react-icons/bs";
+import { IoIosRocket } from "react-icons/io";
+import { FaStreetView } from "react-icons/fa";
 
 import Building1 from "../../Images/Design 06.jpeg";
 const Services = () => {
@@ -27,6 +29,27 @@ const Services = () => {
       url: Webdev,
       title: "Web Development",
       to: "/webdev",
+    },
+  ];
+
+  const missions = [
+    {
+      icon: BsFillEyeFill,
+      title: "Our Vission",
+      message:
+        "To be a leading engineering company satisfying all possible clients in and out of Nepal.",
+    },
+    {
+      icon: IoIosRocket,
+      title: "Our Mission",
+      message:
+        "To provide our best service, consultancy and service at minimum cost and helping them live a better and stress free life.",
+    },
+    {
+      icon: FaStreetView,
+      title: "Our Value",
+      message:
+        "Delivering excellency and gaining optimum client satisfaction. We serve all kinds of clients. Money will not be a constraint.",
     },
   ];
   return (
@@ -54,22 +77,24 @@ const Services = () => {
         </div>
         <br />
         <div className="main-mission">
-          <div className="mission">
-            <BsFillEyeFill
-              size={65}
-              style={{
-                border: "1px solid white",
-                borderRadius: "50%",
-                backgroundColor: "var(--color-darkSlate)",
-              }}
-            />
-            <h3>Our Vision</h3>
-            <hr />
-            <p>
-              To be a leading engineering company satisfying all possible
-              clients in and out of Nepal.
-            </p>
-          </div>
+          {missions.map((mission, idx) => {
+            return (
+              <div className="mission" key={idx}>
+                <mission.icon
+                  size={75}
+                  style={{
+                    border: "1px solid white",
+                    borderRadius: "50%",
+                    padding: "1vmax",
+                    backgroundColor: "var(--color-darkSlate)",
+                  }}
+                />
+                <h3>{mission.title}</h3>
+                <hr />
+                <p>{mission.message}</p>
+              </div>
+            );
+          })}
         </div>
       </div>
     </div>

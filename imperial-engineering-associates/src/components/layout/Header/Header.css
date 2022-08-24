@@ -203,7 +203,7 @@ header{
         padding: 0.5vmax 6vmax 0.5vmax 6vmax;
     }
     .icons{
-        justify-content: center;
+        /* justify-content: center; */
     }
     
 }
@@ -229,7 +229,6 @@ header{
     }
     .icons > a{
         font-size: x-small;
-        border: 1px solid #fff;
     }
     
 }

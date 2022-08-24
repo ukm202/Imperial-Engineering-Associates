@@ -8,7 +8,7 @@ const About = () => {
         <h2>About Us</h2>
         <h5>We are committed for your sustainable construction.</h5>
         <p>
-          Imperial Engineering Associates was established in 2020 registered
+          Imperial Engineering Associates was established in 2018 registered
           under the Government of Nepal, Department of Engineering and Construction, with an objective to provide
           sustainable construction satisfying clients requirements in a
           strategic and innovative way of construction.
@@ -17,7 +17,7 @@ const About = () => {
             <div className="grid-item">
                 <FaAward size={65} fill="var(--color-primary-variant)"  />
                 <div className="grid-content">
-                    <h4>2+ Years</h4>
+                    <h4>4+ Years</h4>
                     <p>Of Experience</p>
                 </div>
 
@@ -27,7 +27,7 @@ const About = () => {
             <div className="grid-item">
                 <MdPlace size={65} fill="var(--color-primary-variant)" />
                 <div className="grid-content">
-                    <h4>2 Provinces</h4>
+                    <h4>3 Provinces</h4>
                     <p>Projects Running</p>
                 </div>
             

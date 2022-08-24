@@ -73,6 +73,7 @@ const Footer = () => {
                     smooth={true}
                     offset={-100}
                     onClick={closeMenu}
+                    style={{pointerEvents: 'none'}}
                   >
                     {" "}
                     Message from Chairman{" "}
@@ -86,6 +87,7 @@ const Footer = () => {
                     smooth={true}
                     offset={-100}
                     onClick={closeMenu}
+                    style={{pointerEvents: 'none'}}
                   >
                     Our Team
                   </Link>
@@ -126,6 +128,7 @@ const Footer = () => {
                 smooth={true}
                 offset={-100}
                 onClick={closeMenu}
+                style={{pointerEvents: 'none'}}
               >
                 Training
               </Link>{" "}
@@ -138,6 +141,7 @@ const Footer = () => {
                 smooth={true}
                 offset={-100}
                 onClick={closeMenu}
+                style={{pointerEvents: 'none'}}
               >
                 Recruitment
               </Link>{" "}
@@ -164,19 +168,20 @@ const Footer = () => {
             always ready at your service.
           </p>
           <div className="contact-links">
-            <a href="#">
+            <a href="https://www.facebook.com/Imperial2021.Associates"
+            target="_blank">
               {" "}
               <FaFacebook size={23} />{" "}
             </a>
-            <a href="#">
+            <a href="#" style={{ pointerEvents: "none" }}>
               {" "}
               <AiFillTwitterCircle size={23} />{" "}
             </a>
-            <a href="#">
+            <a href="https://www.uttammishra.com/" target='_blank'>
               {" "}
               <FaInstagramSquare size={23} />{" "}
             </a>
-            <a href="#">
+            <a href="https://www.linkedin.com/in/uttam-mishra/" target="_blank">
               {" "}
               <FaLinkedin size={23} />{" "}
             </a>

@@ -54,6 +54,7 @@ const Navbar = () => {
             smooth={true}
             offset={-100}
             onClick={closeMenu}
+            
           >
             Our Company
             <IoMdArrowDropdown
@@ -78,6 +79,7 @@ const Navbar = () => {
               smooth={true}
               offset={-100}
               onClick={closeMenu}
+              
             >
               Message from Chairman
             </Link>
@@ -121,6 +123,7 @@ const Navbar = () => {
             smooth={true}
             offset={-100}
             onClick={closeMenu}
+            style={{pointerEvents: 'none'}}
           >
             Training
           </Link>
@@ -132,6 +135,7 @@ const Navbar = () => {
             smooth={true}
             offset={-100}
             onClick={closeMenu}
+            style={{pointerEvents: 'none'}}
           >
             Recruitment
           </Link>

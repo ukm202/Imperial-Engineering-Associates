@@ -8,9 +8,10 @@
     font-size: 1.4rem;
 }
 .footer-bar > h2 > a{
-    color: var(--color-darkSlate);  
+    color: var(--color-darkSlate) !important;  
     font-size: 1.4rem;
 }
+
 
 /* Footer Bottom */
 .footer-bottom{
@@ -67,6 +68,9 @@
 .footer > .links >ul  {
     margin-left: 10rem;  
 }
+.footer > .links >ul > li > a:hover, .footer > .links >ul > li >ul>li> a:hover {
+    color: var(--color-primary-variant);
+}
 .footer > .links >ul > li > ul  {
     margin-left: 2rem;  
 }
@@ -106,6 +110,10 @@ li::before {
 }
 
 /* Map */
+.map{
+    width: 100%;
+}
+
 .map > iframe{
     max-width: fit-content;
 
@@ -146,6 +154,7 @@ li::before {
         width: 100%;
         padding: 2rem;
     }  
+    
    
 }
 

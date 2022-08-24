@@ -39,8 +39,10 @@
     font-weight: 500;
     transition: var(--transition);
 }
-.navs > .navs-item:hover{
-    padding-bottom: 12px;
+
+.navs > .navs-item > a:hover{
+    color: var(--color-primary-variant);
+
 }
 
 .burger{

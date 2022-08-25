@@ -11,7 +11,7 @@
 
 <h4>Copyright &copy;2022 Imperial Engineering Associates | Designed & Developed by
 
-[Uttam Mishra](https://www.uttammishra.com/ "title" target="_blank")
+[Uttam Mishra](https://www.uttammishra.com)
 </h4>
 
 

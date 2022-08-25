@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Imperial-Engineering-Associates/static/css/main.c3c6bb01.css",
-    "main.js": "/Imperial-Engineering-Associates/static/js/main.a1ca2f06.js",
-    "static/media/services.jpeg": "/Imperial-Engineering-Associates/static/media/services.ea9f5114aca15005d197.jpeg",
-    "static/media/webdev.jpeg": "/Imperial-Engineering-Associates/static/media/webdev.7cecb2a7d3a1a765edfc.jpeg",
-    "static/media/Budhha Airlines Building 4.jpeg": "/Imperial-Engineering-Associates/static/media/Budhha Airlines Building 4.2abfed2a67737cb052fa.jpeg",
-    "static/media/Design 05.jpeg": "/Imperial-Engineering-Associates/static/media/Design 05.9b9fb430c7eeb5720f4b.jpeg",
-    "static/media/Design 06.jpeg": "/Imperial-Engineering-Associates/static/media/Design 06.dddb8a1ad4b1468ab12b.jpeg",
-    "static/media/header07.jpeg": "/Imperial-Engineering-Associates/static/media/header07.556ecf12ebcc64a63ff5.jpeg",
-    "static/media/Client-kanyam.jpeg": "/Imperial-Engineering-Associates/static/media/Client-kanyam.20a82809e6d2e5b12067.jpeg",
-    "static/media/Client-buddha-airlines.jpeg": "/Imperial-Engineering-Associates/static/media/Client-buddha-airlines.0abf3cc0f3d203780e9a.jpeg",
-    "static/media/Client-arju.jpeg": "/Imperial-Engineering-Associates/static/media/Client-arju.c8bc47851fc7ab4b524e.jpeg",
-    "static/media/logo.png": "/Imperial-Engineering-Associates/static/media/logo.1e32dc0748c1ab523e1f.png",
-    "index.html": "/Imperial-Engineering-Associates/index.html",
-    "main.c3c6bb01.css.map": "/Imperial-Engineering-Associates/static/css/main.c3c6bb01.css.map",
-    "main.a1ca2f06.js.map": "/Imperial-Engineering-Associates/static/js/main.a1ca2f06.js.map"
+    "main.css": "/imperial-engineering-associates/static/css/main.a907f3f6.css",
+    "main.js": "/imperial-engineering-associates/static/js/main.a8abe977.js",
+    "static/media/services.jpeg": "/imperial-engineering-associates/static/media/services.ea9f5114aca15005d197.jpeg",
+    "static/media/webdev.jpeg": "/imperial-engineering-associates/static/media/webdev.7cecb2a7d3a1a765edfc.jpeg",
+    "static/media/Budhha Airlines Building 4.jpeg": "/imperial-engineering-associates/static/media/Budhha Airlines Building 4.2abfed2a67737cb052fa.jpeg",
+    "static/media/Design 05.jpeg": "/imperial-engineering-associates/static/media/Design 05.9b9fb430c7eeb5720f4b.jpeg",
+    "static/media/Design 06.jpeg": "/imperial-engineering-associates/static/media/Design 06.dddb8a1ad4b1468ab12b.jpeg",
+    "static/media/header07.jpeg": "/imperial-engineering-associates/static/media/header07.556ecf12ebcc64a63ff5.jpeg",
+    "static/media/Client-kanyam.jpeg": "/imperial-engineering-associates/static/media/Client-kanyam.20a82809e6d2e5b12067.jpeg",
+    "static/media/Client-buddha-airlines.jpeg": "/imperial-engineering-associates/static/media/Client-buddha-airlines.0abf3cc0f3d203780e9a.jpeg",
+    "static/media/Client-arju.jpeg": "/imperial-engineering-associates/static/media/Client-arju.c8bc47851fc7ab4b524e.jpeg",
+    "static/media/logo.png": "/imperial-engineering-associates/static/media/logo.1e32dc0748c1ab523e1f.png",
+    "index.html": "/imperial-engineering-associates/index.html",
+    "main.a907f3f6.css.map": "/imperial-engineering-associates/static/css/main.a907f3f6.css.map",
+    "main.a8abe977.js.map": "/imperial-engineering-associates/static/js/main.a8abe977.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3c6bb01.css",
-    "static/js/main.a1ca2f06.js"
+    "static/css/main.a907f3f6.css",
+    "static/js/main.a8abe977.js"
   ]
 }

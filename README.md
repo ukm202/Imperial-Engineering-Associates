@@ -9,7 +9,7 @@
     <li>CSS</li>
 </ul>
 
-<h4>Copyright &copy;2022 Imperial Engineering Associates | Designed & Developed by <a href="https://www.uttammishra.com" target={_blank} >Uttam Mishra</a></h4>
+<h3>Copyright &copy;2022 Imperial Engineering Associates | Designed & Developed by<a href="https://www.uttammishra.com">Uttam Mishra</a></h3>
 
 
 

@@ -20,8 +20,6 @@ const App = () => {
       <Services />
       <Clients />
 
-      
-      
       {/* <Router>
         <Routes>
           <Route exact to="/" element={<Home />} />

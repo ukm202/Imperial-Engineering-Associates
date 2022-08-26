@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2ff7d289.css",
+    "main.js": "/static/js/main.c0bae501.js",
+    "static/media/services.jpeg": "/static/media/services.ea9f5114aca15005d197.jpeg",
+    "static/media/webdev.jpeg": "/static/media/webdev.7cecb2a7d3a1a765edfc.jpeg",
+    "static/media/Budhha Airlines Building 4.jpeg": "/static/media/Budhha Airlines Building 4.2abfed2a67737cb052fa.jpeg",
+    "static/media/Design 05.jpeg": "/static/media/Design 05.9b9fb430c7eeb5720f4b.jpeg",
+    "static/media/Design 06.jpeg": "/static/media/Design 06.dddb8a1ad4b1468ab12b.jpeg",
+    "static/media/header07.jpeg": "/static/media/header07.556ecf12ebcc64a63ff5.jpeg",
+    "static/media/Client-kanyam.jpeg": "/static/media/Client-kanyam.20a82809e6d2e5b12067.jpeg",
+    "static/media/Client-buddha-airlines.jpeg": "/static/media/Client-buddha-airlines.0abf3cc0f3d203780e9a.jpeg",
+    "static/media/Client-arju.jpeg": "/static/media/Client-arju.c8bc47851fc7ab4b524e.jpeg",
+    "static/media/logo.png": "/static/media/logo.1e32dc0748c1ab523e1f.png",
+    "index.html": "/index.html",
+    "main.2ff7d289.css.map": "/static/css/main.2ff7d289.css.map",
+    "main.c0bae501.js.map": "/static/js/main.c0bae501.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ff7d289.css",
+    "static/js/main.c0bae501.js"
+  ]
+}

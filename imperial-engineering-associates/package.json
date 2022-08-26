@@ -1,5 +1,6 @@
 {
   "name": "imperial-engineering-associates",
+  "homepage": "https://www.imperial-associates.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

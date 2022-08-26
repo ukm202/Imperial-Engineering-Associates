@@ -13,6 +13,7 @@ const About = () => {
           sustainable construction satisfying clients requirements in a
           strategic and innovative way of construction.
         </p>
+        <br />
         <div className="main-grid">
             <div className="grid-item">
                 <FaAward size={65} fill="var(--color-primary-variant)"  />

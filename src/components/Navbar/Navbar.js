@@ -38,7 +38,7 @@ const Navbar = () => {
           <Link
             to="home"
             spy={true}
-            smooth={true}
+            smooth='easeInOutQuint'
             offset={-100}
             onClick={closeMenu}
             duration={500}
@@ -51,7 +51,7 @@ const Navbar = () => {
           <Link
             to="company"
             spy={true}
-            smooth={true}
+            smooth='easeInOutQuint'
             offset={-100}
             onClick={closeMenu}
             
@@ -66,7 +66,7 @@ const Navbar = () => {
             <Link
               to="about"
               spy={true}
-              smooth={true}
+              smooth='easeInOutQuint'
               offset={-50}
               onClick={closeMenu}
               duration={100}
@@ -76,7 +76,7 @@ const Navbar = () => {
             <Link
               to="chairman"
               spy={true}
-              smooth={true}
+              smooth='easeInOutQuint'
               offset={-100}
               onClick={closeMenu}
               
@@ -86,7 +86,7 @@ const Navbar = () => {
             <Link
               to="team"
               spy={true}
-              smooth={true}
+              smooth='easeInOutQuint'
               offset={-100}
               onClick={closeMenu}
             >
@@ -95,7 +95,7 @@ const Navbar = () => {
             <Link
               to="clients"
               spy={true}
-              smooth={true}
+              smooth='easeInOutQuint'
               offset={0}
               onClick={closeMenu}
               duration={500}
@@ -108,10 +108,11 @@ const Navbar = () => {
           <Link
             to="services"
             spy={true}
-            smooth={true}
+            smooth='easeInOutQuint'
             offset={0}
             onClick={closeMenu}
-            duration={300}
+            duration={200}
+            
           >
             Our Services
           </Link>
@@ -120,7 +121,7 @@ const Navbar = () => {
           <Link
             to="training"
             spy={true}
-            smooth={true}
+            smooth='easeInOutQuint'
             offset={-100}
             onClick={closeMenu}
             style={{pointerEvents: 'none'}}
@@ -132,7 +133,7 @@ const Navbar = () => {
           <Link
             to="recruitment"
             spy={true}
-            smooth={true}
+            smooth='easeInOutQuint'
             offset={-100}
             onClick={closeMenu}
             style={{pointerEvents: 'none'}}
@@ -144,7 +145,7 @@ const Navbar = () => {
           <Link
             to="contacts"
             spy={true}
-            smooth={true}
+            smooth='easeInOutQuint'
             offset={-100}
             onClick={closeMenu}
             duration={500}

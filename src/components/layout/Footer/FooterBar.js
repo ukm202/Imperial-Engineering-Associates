@@ -20,7 +20,7 @@ const FooterBar = () => {
         <Link
           to="contacts"
           spy={true}
-          smooth={true}
+          smooth='easeInOutQuint'
           offset={-100}
           onClick={closeMenu}
           duration={500}

@@ -32,7 +32,7 @@ const Footer = () => {
               <Link
                 to="home"
                 spy={true}
-                smooth={true}
+                smooth='easeInOutQuint'
                 offset={-100}
                 onClick={closeMenu}
                 duration={500}
@@ -44,7 +44,7 @@ const Footer = () => {
               <Link
                 to="company"
                 spy={true}
-                smooth={true}
+                smooth='easeInOutQuint'
                 offset={-100}
                 onClick={closeMenu}
               >
@@ -56,7 +56,7 @@ const Footer = () => {
                   <Link
                     to="about"
                     spy={true}
-                    smooth={true}
+                    smooth='easeInOutQuint'
                     offset={-50}
                     onClick={closeMenu}
                     duration={100}
@@ -70,7 +70,7 @@ const Footer = () => {
                   <Link
                     to="chairman"
                     spy={true}
-                    smooth={true}
+                    smooth='easeInOutQuint'
                     offset={-100}
                     onClick={closeMenu}
                     style={{pointerEvents: 'none'}}
@@ -84,7 +84,7 @@ const Footer = () => {
                   <Link
                     to="team"
                     spy={true}
-                    smooth={true}
+                    smooth='easeInOutQuint'
                     offset={-100}
                     onClick={closeMenu}
                     style={{pointerEvents: 'none'}}
@@ -97,7 +97,7 @@ const Footer = () => {
                   <Link
                     to="clients"
                     spy={true}
-                    smooth={true}
+                    smooth='easeInOutQuint'
                     offset={0}
                     onClick={closeMenu}
                     duration={500}
@@ -112,7 +112,7 @@ const Footer = () => {
               <Link
                 to="services"
                 spy={true}
-                smooth={true}
+                smooth='easeInOutQuint'
                 offset={0}
                 onClick={closeMenu}
                 duration={300}
@@ -125,7 +125,7 @@ const Footer = () => {
               <Link
                 to="training"
                 spy={true}
-                smooth={true}
+                smooth='easeInOutQuint'
                 offset={-100}
                 onClick={closeMenu}
                 style={{pointerEvents: 'none'}}
@@ -138,7 +138,7 @@ const Footer = () => {
               <Link
                 to="recruitment"
                 spy={true}
-                smooth={true}
+                smooth='easeInOutQuint'
                 offset={-100}
                 onClick={closeMenu}
                 style={{pointerEvents: 'none'}}
@@ -151,7 +151,7 @@ const Footer = () => {
               <Link
                 to="contacts"
                 spy={true}
-                smooth={true}
+                smooth='easeInOutQuint'
                 offset={-100}
                 onClick={closeMenu}
                 duration={500}
@@ -197,7 +197,7 @@ const Footer = () => {
         <Link
           to="home"
           spy={true}
-          smooth={true}
+          smooth='easeInOutQuint'
           offset={-100}
           onClick={closeMenu}
           duration={500}

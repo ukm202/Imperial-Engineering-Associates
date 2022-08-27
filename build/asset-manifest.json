@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2ff7d289.css",
-    "main.js": "/static/js/main.d1146eb9.js",
+    "main.css": "/static/css/main.632aef06.css",
+    "main.js": "/static/js/main.aac211e1.js",
     "static/media/services.jpeg": "/static/media/services.ea9f5114aca15005d197.jpeg",
     "static/media/webdev.jpeg": "/static/media/webdev.7cecb2a7d3a1a765edfc.jpeg",
     "static/media/Budhha Airlines Building 4.jpeg": "/static/media/Budhha Airlines Building 4.2abfed2a67737cb052fa.jpeg",
@@ -13,11 +13,11 @@
     "static/media/Client-arju.jpeg": "/static/media/Client-arju.c8bc47851fc7ab4b524e.jpeg",
     "static/media/logo.png": "/static/media/logo.1e32dc0748c1ab523e1f.png",
     "index.html": "/index.html",
-    "main.2ff7d289.css.map": "/static/css/main.2ff7d289.css.map",
-    "main.d1146eb9.js.map": "/static/js/main.d1146eb9.js.map"
+    "main.632aef06.css.map": "/static/css/main.632aef06.css.map",
+    "main.aac211e1.js.map": "/static/js/main.aac211e1.js.map"
   },
   "entrypoints": [
-    "static/css/main.2ff7d289.css",
-    "static/js/main.d1146eb9.js"
+    "static/css/main.632aef06.css",
+    "static/js/main.aac211e1.js"
   ]
 }

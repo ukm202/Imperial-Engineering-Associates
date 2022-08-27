@@ -15,8 +15,11 @@ import {
   scroller,
 } from "react-scroll";
 import { useState } from "react";
+import { Link as Atag, useNavigate } from "react-router-dom";
+
 
 const Navbar = () => {
+
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
   const closeMenu = () => setClick(false);
@@ -38,7 +41,7 @@ const Navbar = () => {
           <Link
             to="home"
             spy={true}
-            smooth='easeInOutQuint'
+            // smooth='easeInOutQuint'
             offset={-100}
             onClick={closeMenu}
             duration={500}
@@ -51,7 +54,7 @@ const Navbar = () => {
           <Link
             to="company"
             spy={true}
-            smooth='easeInOutQuint'
+            // smooth='easeInOutQuint'
             offset={-100}
             onClick={closeMenu}
             
@@ -66,7 +69,7 @@ const Navbar = () => {
             <Link
               to="about"
               spy={true}
-              smooth='easeInOutQuint'
+              // smooth='easeInOutQuint'
               offset={-50}
               onClick={closeMenu}
               duration={100}
@@ -76,7 +79,7 @@ const Navbar = () => {
             <Link
               to="chairman"
               spy={true}
-              smooth='easeInOutQuint'
+              // smooth='easeInOutQuint'
               offset={-100}
               onClick={closeMenu}
               
@@ -86,7 +89,7 @@ const Navbar = () => {
             <Link
               to="team"
               spy={true}
-              smooth='easeInOutQuint'
+              // smooth='easeInOutQuint'
               offset={-100}
               onClick={closeMenu}
             >
@@ -95,7 +98,7 @@ const Navbar = () => {
             <Link
               to="clients"
               spy={true}
-              smooth='easeInOutQuint'
+              // smooth='easeInOutQuint'
               offset={0}
               onClick={closeMenu}
               duration={500}
@@ -108,7 +111,7 @@ const Navbar = () => {
           <Link
             to="services"
             spy={true}
-            smooth='easeInOutQuint'
+            // smooth='easeInOutQuint'
             offset={0}
             onClick={closeMenu}
             duration={200}
@@ -121,7 +124,7 @@ const Navbar = () => {
           <Link
             to="training"
             spy={true}
-            smooth='easeInOutQuint'
+            // smooth='easeInOutQuint'
             offset={-100}
             onClick={closeMenu}
             style={{pointerEvents: 'none'}}
@@ -130,22 +133,24 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="navs-item" >
-          <Link
-            to="recruitment"
-            spy={true}
-            smooth='easeInOutQuint'
-            offset={-100}
-            onClick={closeMenu}
-            style={{pointerEvents: 'none'}}
+          <Atag
+            // onClick={()=> comeBack()}
+            to="/recruitment"
+            target="_blank"
+              // spy={true}
+              // smooth='easeInOutQuint'
+              // offset={-100}
+              // onClick={closeMenu}
+              // style={{pointerEvents: 'none'}}
           >
             Recruitment
-          </Link>
+          </Atag>
         </div>
         <div className="navs-item" >
           <Link
             to="contacts"
             spy={true}
-            smooth='easeInOutQuint'
+            // smooth='easeInOutQuint'
             offset={-100}
             onClick={closeMenu}
             duration={500}

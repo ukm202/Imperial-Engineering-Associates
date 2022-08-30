@@ -42,7 +42,6 @@
     /* color: black; */
     text-align: center;
     padding-top: 1rem;
-    text-align: center;
     width: 80%;
     padding: 0 10%;
 }
@@ -66,10 +65,9 @@
 
 }
 .services-item >img{
-    border-radius: 1rem;
     max-width: 100%;
     /* padding-bottom: 1rem; */
-    border-radius: 0.5rem;
+    border-radius: 0.75rem;
     overflow: hidden;
 }
 

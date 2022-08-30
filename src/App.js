@@ -10,6 +10,7 @@ import Services from "./components/Services/Services";
 import Clients from "./components/Clients/Clients";
 import Recruitment from "./components/Recruitment/Recruitment";
 import { useState,useEffect } from "react";
+import Team from "./components/Team/Team";
 
 
 const App = () => {
@@ -40,6 +41,7 @@ const App = () => {
               <About />,
               <Services />,
               <Clients />,
+              <Team />,
               <Footer />
 
 

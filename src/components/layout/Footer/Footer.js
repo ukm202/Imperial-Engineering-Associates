@@ -5,6 +5,7 @@ import { BsFillCloudArrowUpFill } from "react-icons/bs";
 import { FaFacebook, FaInstagramSquare, FaLinkedin } from "react-icons/fa";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import Map from "./Map";
+import { Link as Atag } from "react-router-dom";
 
 import {
   Link,
@@ -32,7 +33,7 @@ const Footer = () => {
               <Link
                 to="home"
                 spy={true}
-                smooth='easeInOutQuint'
+                smooth="easeInOutQuint"
                 offset={-100}
                 onClick={closeMenu}
                 duration={500}
@@ -44,7 +45,7 @@ const Footer = () => {
               <Link
                 to="company"
                 spy={true}
-                smooth='easeInOutQuint'
+                smooth="easeInOutQuint"
                 offset={-100}
                 onClick={closeMenu}
               >
@@ -56,7 +57,7 @@ const Footer = () => {
                   <Link
                     to="about"
                     spy={true}
-                    smooth='easeInOutQuint'
+                    smooth="easeInOutQuint"
                     offset={-50}
                     onClick={closeMenu}
                     duration={100}
@@ -70,10 +71,10 @@ const Footer = () => {
                   <Link
                     to="chairman"
                     spy={true}
-                    smooth='easeInOutQuint'
+                    smooth="easeInOutQuint"
                     offset={-100}
                     onClick={closeMenu}
-                    style={{pointerEvents: 'none'}}
+                    style={{ pointerEvents: "none" }}
                   >
                     {" "}
                     Message from Chairman{" "}
@@ -84,10 +85,10 @@ const Footer = () => {
                   <Link
                     to="team"
                     spy={true}
-                    smooth='easeInOutQuint'
-                    offset={-100}
+                    // smooth='easeInOutQuint'
+                    offset={0}
                     onClick={closeMenu}
-                    style={{pointerEvents: 'none'}}
+                    // style={{pointerEvents: 'none'}}
                   >
                     Our Team
                   </Link>
@@ -97,7 +98,7 @@ const Footer = () => {
                   <Link
                     to="clients"
                     spy={true}
-                    smooth='easeInOutQuint'
+                    smooth="easeInOutQuint"
                     offset={0}
                     onClick={closeMenu}
                     duration={500}
@@ -112,7 +113,7 @@ const Footer = () => {
               <Link
                 to="services"
                 spy={true}
-                smooth='easeInOutQuint'
+                smooth="easeInOutQuint"
                 offset={0}
                 onClick={closeMenu}
                 duration={300}
@@ -125,33 +126,35 @@ const Footer = () => {
               <Link
                 to="training"
                 spy={true}
-                smooth='easeInOutQuint'
+                smooth="easeInOutQuint"
                 offset={-100}
                 onClick={closeMenu}
-                style={{pointerEvents: 'none'}}
+                style={{ pointerEvents: "none" }}
               >
                 Training
               </Link>{" "}
             </li>
             <li>
               {" "}
-              <Link
-                to="recruitment"
-                spy={true}
-                smooth='easeInOutQuint'
-                offset={-100}
-                onClick={closeMenu}
-                style={{pointerEvents: 'none'}}
+              <Atag
+                // onClick={()=> comeBack()}
+                to="/recruitment"
+                target="_blank"
+                // spy={true}
+                // smooth='easeInOutQuint'
+                // offset={-100}
+                // onClick={closeMenu}
+                // style={{pointerEvents: 'none'}}
               >
                 Recruitment
-              </Link>{" "}
+              </Atag>{" "}
             </li>
             <li>
               {" "}
               <Link
                 to="contacts"
                 spy={true}
-                smooth='easeInOutQuint'
+                smooth="easeInOutQuint"
                 offset={-100}
                 onClick={closeMenu}
                 duration={500}
@@ -168,8 +171,10 @@ const Footer = () => {
             always ready at your service.
           </p>
           <div className="contact-links">
-            <a href="https://www.facebook.com/Imperial2021.Associates"
-            target="_blank">
+            <a
+              href="https://www.facebook.com/Imperial2021.Associates"
+              target="_blank"
+            >
               {" "}
               <FaFacebook size={23} />{" "}
             </a>
@@ -177,7 +182,7 @@ const Footer = () => {
               {" "}
               <AiFillTwitterCircle size={23} />{" "}
             </a>
-            <a href="https://www.uttammishra.com/" target='_blank'>
+            <a href="https://www.uttammishra.com/" target="_blank">
               {" "}
               <FaInstagramSquare size={23} />{" "}
             </a>
@@ -197,7 +202,7 @@ const Footer = () => {
         <Link
           to="home"
           spy={true}
-          smooth='easeInOutQuint'
+          smooth="easeInOutQuint"
           offset={-100}
           onClick={closeMenu}
           duration={500}

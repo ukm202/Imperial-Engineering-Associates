@@ -7,9 +7,10 @@ function Recruitment() {
 
   useEffect(() => {
     setTimeout(() => {
-      // window.open("https://imperial-associates.com/", "_self");
+      window.opener = null;
+      // window.open("", "_self", "");
       window.close();
-    },5000);
+    }, 5000);
   }, []);
 
   return (

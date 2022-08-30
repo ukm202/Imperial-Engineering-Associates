@@ -90,7 +90,7 @@ const Navbar = () => {
               to="team"
               spy={true}
               // smooth='easeInOutQuint'
-              offset={-100}
+              offset={0}
               onClick={closeMenu}
             >
               Our Team

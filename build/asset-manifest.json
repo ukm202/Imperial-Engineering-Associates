@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.632aef06.css",
-    "main.js": "/static/js/main.aac211e1.js",
+    "main.css": "/static/css/main.8261262e.css",
+    "main.js": "/static/js/main.2c235cf7.js",
     "static/media/services.jpeg": "/static/media/services.ea9f5114aca15005d197.jpeg",
+    "static/media/Uttam.jpeg": "/static/media/Uttam.e317e4f192e876552cf2.jpeg",
     "static/media/webdev.jpeg": "/static/media/webdev.7cecb2a7d3a1a765edfc.jpeg",
     "static/media/Budhha Airlines Building 4.jpeg": "/static/media/Budhha Airlines Building 4.2abfed2a67737cb052fa.jpeg",
     "static/media/Design 05.jpeg": "/static/media/Design 05.9b9fb430c7eeb5720f4b.jpeg",
     "static/media/Design 06.jpeg": "/static/media/Design 06.dddb8a1ad4b1468ab12b.jpeg",
     "static/media/header07.jpeg": "/static/media/header07.556ecf12ebcc64a63ff5.jpeg",
+    "static/media/Himal.jpeg": "/static/media/Himal.671e439e33df6a548f2e.jpeg",
     "static/media/Client-kanyam.jpeg": "/static/media/Client-kanyam.20a82809e6d2e5b12067.jpeg",
     "static/media/Client-buddha-airlines.jpeg": "/static/media/Client-buddha-airlines.0abf3cc0f3d203780e9a.jpeg",
     "static/media/Client-arju.jpeg": "/static/media/Client-arju.c8bc47851fc7ab4b524e.jpeg",
+    "static/media/Priti.jpeg": "/static/media/Priti.91367010f5c1b9579a0a.jpeg",
+    "static/media/Chandan.jpeg": "/static/media/Chandan.032a380bbc3e4c8a0f7b.jpeg",
     "static/media/logo.png": "/static/media/logo.1e32dc0748c1ab523e1f.png",
     "index.html": "/index.html",
-    "main.632aef06.css.map": "/static/css/main.632aef06.css.map",
-    "main.aac211e1.js.map": "/static/js/main.aac211e1.js.map"
+    "main.8261262e.css.map": "/static/css/main.8261262e.css.map",
+    "main.2c235cf7.js.map": "/static/js/main.2c235cf7.js.map"
   },
   "entrypoints": [
-    "static/css/main.632aef06.css",
-    "static/js/main.aac211e1.js"
+    "static/css/main.8261262e.css",
+    "static/js/main.2c235cf7.js"
   ]
 }

@@ -5,6 +5,15 @@ import Priti from "../../Images/Priti.jpeg";
 import Himal from "../../Images/Himal.jpeg";
 import { ImPointRight } from "react-icons/im";
 
+// import swiper core and required modules
+import { Navigation, Pagination, Autoplay } from "swiper";
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// import swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/autoplay';
+
 const Team = () => {
   const members = [
     {
@@ -44,21 +53,34 @@ const Team = () => {
       <hr />
       <br />
       <br />
-      <div className="team-list">
+      <Swiper className="team-list" 
+        modules={[Navigation, Pagination, Autoplay]}
+        spaceBetween={40}
+        slidesPerView={1}
+        // pagination={{ clickable: true }} 
+        loop= {true}
+        autoplay= {{
+            delay: 3000,
+            disableOnInteraction: true,
+        }}
+      >
         {members.map((member, idx) => {
           return (
-            <div className="member-item" key={idx}>
+            <SwiperSlide className="member-item" key={idx}>
+              <center>
+                <img src={member.url} alt={member.title} style={{width:"9rem", height:"9rem", borderRadius:"50%"}} />
+
+              </center>
     
-              <img src={member.url} alt={member.title} />
               <br />
               <h4>{member.name}</h4>
               <p>{member.position} </p>
               <p>{member.college} </p>
               <p id="major">{member.major} </p>
-            </div>
+            </SwiperSlide>
           );
         })}
-      </div>
+      </Swiper>
       <br />
 
       <a href="/members">

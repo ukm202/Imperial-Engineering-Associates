@@ -26,7 +26,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <div className="searchBox">
+      <div data-hover="Service is currently unavailable" className="searchBox hovertext">
         <input type="search" placeholder="How Can We Help You?" />
       </div>
       <div className="burger" onClick={handleClick}>
@@ -120,19 +120,19 @@ const Navbar = () => {
             Our Services
           </Link>
         </div>
-        <div className="navs-item" >
+        <div data-hover="Training is currently unavailable"  className="navs-item hovertext" >
           <Link
             to="training"
             spy={true}
             // smooth='easeInOutQuint'
             offset={-100}
             onClick={closeMenu}
-            style={{pointerEvents: 'none'}}
+            // style={{pointerEvents: 'none'}}
           >
             Training
           </Link>
         </div>
-        <div className="navs-item" >
+        <div data-hover="Not hiring at the moment" className="navs-item hovertext" >
           <Atag
             // onClick={()=> comeBack()}
             to="/recruitment"

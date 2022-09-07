@@ -23,7 +23,7 @@ const Home = () => {
         <div className="home-content">
           <div className="message">
             <FaQuoteLeft size={25} />
-            <h2>Let's Build Our Dream Together</h2>
+            <h2>Let's Build Our Dream </h2>
             <FaQuoteRight size={25} />
           </div>
           <button className="home-contact">
